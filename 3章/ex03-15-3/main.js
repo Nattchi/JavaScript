@@ -1,0 +1,12 @@
+const helloween = new Date(2019, 9, 31);
+console.log(helloween);
+const helloween_party = new Date(2019, 9, 31, 19, 0);
+console.log(helloween_party);
+console.log(helloween_party.getFullYear());
+console.log(helloween_party.getMonth());
+console.log(helloween_party.getDate());
+console.log(helloween_party.getDay());
+console.log(helloween_party.getHours());
+console.log(helloween_party.getMinutes());
+console.log(helloween_party.getSeconds());
+console.log(helloween_party.getMilliseconds());
